@@ -4,6 +4,8 @@ import Event from "events";
 import { constants } from "./util/constants.js";
 import LobbyController from "./controllers/lobbyController.js";
 
+//config port server
+
 const port = process.env.PORT || 3000;
 
 const socketServer = new SocketServer({ port });
