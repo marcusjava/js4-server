@@ -6,6 +6,15 @@ import LobbyController from "./controllers/lobbyController.js";
 
 //config port server
 
+/* 
+
+  "engines": {
+    "node": "16"
+  },
+
+
+*/
+
 const port = process.env.PORT || 3000;
 
 const socketServer = new SocketServer({ port });
