@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Semana JSExpert",
+  "main": "src/index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "npx nodemon src/index.js "
+  },
+  "dependencies": {
+    "socket.io": "4.0.2"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
